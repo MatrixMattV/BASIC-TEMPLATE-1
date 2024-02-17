@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: purple;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    color: gold;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: gold;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: gold;
+}
+
+.main-content h1 {
+    font-size: 4rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background: gold;
+    color: purple;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: gold;
+}
+
+.partnership, .about, .support, p {
+    text-align: center;
+    font-size: 14px;
+    color: gold;
+    padding: 4px;
+    cursor: pointer;
+}
+
